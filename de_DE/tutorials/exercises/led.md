@@ -28,6 +28,7 @@ Das Programm läßt die LED im Sekundentakt blinken. Es wird unter Linux mit `no
 
 Drücke `Control-D` um das Program zu beenden.
 
+[gimmick:gist](543e8db970995df1171c984dc538e9a5)
 
 ```javascript
 var five = require("johnny-five"),
