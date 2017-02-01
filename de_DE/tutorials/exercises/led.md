@@ -26,7 +26,7 @@ Zum Betrieb einer LED ist immer ein Widerstand notwendig, der in Reihe zur LED g
 
 Das Programm läßt die LED im Sekundentakt blinken. Es wird unter Linux mit `node ./code/led-pwm.js` unter Windows mit `node code\led-pwm.js` gestartet.
 
-Drücke `Control-D` um das Program zu beenden.
+Drücke `Control-D` um das Programm zu beenden.
 
 [gimmick:gist](543e8db970995df1171c984dc538e9a5)
 
