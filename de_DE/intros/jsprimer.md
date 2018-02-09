@@ -1,6 +1,6 @@
 # JavaScript Einführung
 
-Es sind keine Programmierkenntnisse erforderlich um sich durch die Übungen zu arbeiten. Dieses Tutorial zeigt die Grundkenntnisse von JavaScript die benötigt wird um NodeBots zu programmieren.
+Es sind keine Programmierkenntnisse erforderlich, um sich durch die Übungen zu arbeiten. Dieses Tutorial zeigt die Grundkenntnisse von JavaScript die benötigt wird um NodeBots zu programmieren.
 
 Für weitere Details siehe die [MDN JavaScript Referenz](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) und die <a href="https://github.com/rwaldron/johnny-five">Johnny-Five</a> Dokumentation.
 
@@ -11,7 +11,7 @@ Für weitere Details siehe die [MDN JavaScript Referenz](https://developer.mozil
 var myVar;
 ```
     
-Use the comma operator to declare multiple variables in a single declaration e.g.
+Benutze Kommas um mehrere Variablen auf einmal zu deklarieren d.h.
 
 ```javascript
 var x, y;
@@ -29,12 +29,12 @@ var myVar = 0;
 var myInt = 0;
 var myFloat = 2.5;
 var myBoolean = true;
-var myString = "This is a string";
+var myString = "Dies ist ein String";
 var myArray = [1,2,3];
 var myJSONObject = {
-  	myField : "Some value"
+  	myField : "Ein Wert"
 };
-// Object instantiation using new
+// Objekte werden mit mit dem new Operator instantiiert
 var myDate = new Date();
 ```
 
@@ -44,12 +44,12 @@ Numerische Operatoren beinhalten + (addition) - (subtraction) / (division) * (mu
 
 ```javascript
 var x = 4;
-x = x + 1; // x is 5
-y = x % 2; // y is 1
-x++; // x is 6
-x--; // x is 5
-x += 3; // x is 8
-var aString = "The value of x is " + x;
+x = x + 1; // x ist 5
+y = x % 2; // y ist 1
+x++; // x ist 6
+x--; // x ist 5
+x += 3; // x ist 8
+var aString = "Der Wert von x ist " + x;
 ```
 
 Der `this` Operator referenziert den aktuell ausgeführten Kontext
@@ -66,16 +66,16 @@ typeof aString; // returns "string"
 Math.floor(myInt);
 Math.ceil(myInt);
 Math.min(x, y);
-Math.random(); // random number between 0 and up to but not equal to 1
+Math.random(); // Zufallszahl zwischen 0 und 1
 Math.PI;
 ```
 
 ## Kommentare
 
 ```javascript
-// Comment until the end of the line
+// Kommentar bis zum Ende der Zeile
 /* 
- *  Comment block
+ *  Kommentar Block
  */
 ```
 
@@ -91,9 +91,9 @@ Benutze Vergleichs Operatoren < (kleiner als) > (größer als) <= (kleiner oder 
 
  ```javascript
 if (x > 0) {
-    // do something
+    // tue etwas
 } else {
-    // do something else
+    // tue etwas anderes
 }
 ```
 

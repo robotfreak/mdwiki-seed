@@ -20,7 +20,7 @@ Da JavaScript nicht auf dem Arduino selbst läuft, ist für die Steuerung ein PC
 
 Firmata ermöglicht die Ansteuerung der Arduino Hardware (digitale und analoge Ein-Ausgänge, PWM, I2C, OneWire etc) über die serielle Schnitttelle
 
-Für einen mobilen autonomen Roboter ist es notwendig, das entweder der PC (Raspberry Pi) mit auf dem Roboter sitzt, oder der Roboter über eine drahtlose serielle Schnittstelle (Bluetooth) verfügt. Wenn man einen Rapsberry Pi verwendet, kann man auch auf das Arduino Board verzichten und direkt die GPIOs des Raspberry Pi zum Ansteuern der Hardware verwenden . Dazu wird die Bibliothek [Raspi-IO](https://github.com/nebrius/raspi-io/) benötigt.
+Für einen mobilen autonomen Roboter ist es notwendig, das entweder der PC (Raspberry Pi) mit auf dem Roboter sitzt, oder der Roboter über eine drahtlose serielle Schnittstelle (Bluetooth) verfügt. Wenn man einen Rapsberry Pi verwendet, kann man auch auf das Arduino Board verzichten und direkt die GPIOs des Raspberry Pi zum Ansteuern der Hardware verwenden. Dazu wird die Bibliothek [Raspi-IO](https://github.com/nebrius/raspi-io/) benötigt.
 
 ### Installation
 
@@ -77,7 +77,7 @@ Wenn Programme auch aus einem anderen Verzeichnissen geladen werden sollen, soll
 npm install johnny-five -g
 ```
 
-Um ein Beispiele aus dem `NodeBots-Tutorial` Verzeichnis zu starten verbinde das Arduino Board über USB mit dem PC und gebe
+Um ein Beispiele aus dem `NodeBots-Tutorial` Verzeichnis zu starten, verbinde das Arduino Board über USB mit dem PC und gebe
 unter Linux/Mac ein:
 
 ```
